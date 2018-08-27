@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#block-logo{
+	max-width: 100%;
+	height: auto;
+}
+
+#zone-branding{
+	/*float: left;*/
+}
+
+#region_menu{
+	margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+	margin-left: -50px;
+}
+
+li {
+    float: left;
+	padding-right: 15px;
+}
+
+li a {
+	color: #fff;
+	font-size: 14px;
+    display: inline-block;
+    padding: 8px;
+    background-color: #0e3557;
+	border-radius: 6px;
+	padding: 8px 15px;
+}
+
+li a:hover{
+	color: #fff;
+	font-weight: 600px;
+    background-color: #353534;
+    border-radius: 6px;
+}
+
+
+#call-block {
+   margin-top: 20px;
+}
+
+.call-contact-top {
+    background-color: #00c853;
+    padding: 4px;
+    border-radius: 8px;
+	color: #fff;
+}
+
+.main-nav-bar{
+	background: url(../images/bg-menu-2.png) no-repeat left top;
+    background-size: 100% 100%;
+    padding: 6px 0;
+	color: #fff;
+}
+
+#main-nav-bar-ul{
+	background: #0e3557;
+    border-radius: 16px;
+	padding: 16px;
+}
+
+li#main-nav-bar-ul a{
+	color: #fff;
+}
+
+li#main-nav-bar-ul a:hover{
+	color: #fff;
+	background-color: transparent;
+}
+
+
+#wrap-zone-slider 
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	
+}
+
+#wrap-zone-slider img{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
